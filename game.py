@@ -1,3 +1,7 @@
+from player import Player
+from ai import AI
+from human import Human
+
 class Game
     def __init__(self):
         self.game= Game
@@ -13,13 +17,8 @@ class Game
         #s
         pass
 
-    def randon?
+    def win(human, ai):
 
-        #choice(range(start, stop, step))
-        #len(x),
-        pass
-
-    def win(self):
         pass
 
 
