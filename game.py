@@ -2,27 +2,25 @@ class Game
     def __init__(self):
         self.game= Game
 
-        #
-        def play():
-            pass
-        #user?
-        #ai
-        #other
+    def player_one(self): pass
 
-        def choices()
+    def player_two(self): pass
+        #
+
+    def choices()
         #r
         #s
         #s
-            pass
+        pass
 
-        def randon?
+    def randon?
 
         #choice(range(start, stop, step))
         #len(x),
-            pass
+        pass
 
-        def win(self):
-            pass
+    def win(self):
+        pass
 
 
 
