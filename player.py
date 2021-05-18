@@ -5,22 +5,16 @@ import random
 
 class Player()
     self.player() = Player
+    #self.list_of_gestures = ['r'= rocks, 'p' = papers,'s' = scissors]
 
-        #def msg01 = "'r'' for rock, 'p' for paper, 's' for scissors"
-        #self.player = input("Select your letter choice : ")
-        #    if input.() = "r"
-        #        print("Rock!")
-        #    if input() = "p"
-        #        print("Paper!")
+   # def self.list_options[]:
 
-         #   if input() = "s"
-         #       print("Scissors!")
-         #       else
-         #       print("please select ", msg01)
-        #print(msg01
-        #self.gestures = pass
-        #self.score = 0
-        #self.chosen_geture = pass
+    def list_of_options  -> choosing_gesture():= [2]:pappers,[0]:rocks
+        r =list_of_options(0)
+        p =list_of_options()[1]
+        s =list_of_options()[2]
+        for list_of_options() in list_of_options()
+            print(list_of_options())
 
     def choosing_gesture(self): pass
 

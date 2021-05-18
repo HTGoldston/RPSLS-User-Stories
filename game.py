@@ -1,10 +1,10 @@
 from player import Player
 from ai import AI
 from human import Human
-
 class Game
-    def __init__(self):
-        self.game= Game
+    def __init__(self)
+        self.game = Game
++
 
     def player_one(self): pass
 
