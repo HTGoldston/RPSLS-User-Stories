@@ -1,13 +1,19 @@
-class AI
-    def __init__(self)
+class AI (Player)
+
+import random
+from random import choice
+
+
+def __init__(self)
         self.ai = AI
 
-    import random
+
     import itertools
 
-    random.choice(dict(rock=[0], paper=[1], scissors=[2]))
+    choice(dict(rock=[0], paper=[1], scissors=[2]))
     print(random)
-
+    def super(self):
+        print()
 
 
     #def chosing_gesture_random(self): ['r','p', 's'])

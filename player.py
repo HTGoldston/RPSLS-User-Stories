@@ -1,13 +1,12 @@
 from human import Human
 from ai import AI
+import random
 
-class Player(Human, AI)
+
+class Player()
     self.player() = Player
 
-    def super(self): Human, AI
-        print()
-
-    #def msg01 = "'r'' for rock, 'p' for paper, 's' for scissors"
+        #def msg01 = "'r'' for rock, 'p' for paper, 's' for scissors"
         #self.player = input("Select your letter choice : ")
         #    if input.() = "r"
         #        print("Rock!")
