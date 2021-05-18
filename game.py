@@ -12,7 +12,7 @@ class Game
         #
 
     def choices()
-        #r
+        game.input("n Type one of r, p or s : ")
         #s
         #s
         pass
@@ -21,7 +21,13 @@ class Game
 
         pass
 
+    while True:
+        print(f"Win: {win}nLoss: {loss}nTie: {tie}")
+        print("""Enter Your Move: 
+                    r - rock 
+                    p - paper 
+                    s - scissors""")
+        UserMove = input("n Type one of r, p or s : ")
+        if UserMove == 'q':
+            sys.exit()  # Quit the program.
 
-
-#   super()init
-        #some_thing = both human_n_cpu
