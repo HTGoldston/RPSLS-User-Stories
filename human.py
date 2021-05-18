@@ -1,7 +1,9 @@
 from player import Player
 
-class Human
-    def __init__(self)
-        self.human = Human
+class Human(Player):
+    def self.human = Human
+
+
+
 
     def choosing_gesture(self): pass
