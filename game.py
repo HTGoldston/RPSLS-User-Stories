@@ -7,23 +7,11 @@ from human import Human
 
 class Game:
     def __init__(self):
-       self.game = Game
+        self.game = Game
+        self.player_one_human = pass
+        self.player_two_human_ai = pass
 
-    def player_one(self): pass
-
-    def player_two(self): pass
-
-
-
-        #
-
-    def choices()
-        game.input("n Type one of r, p or s : ")
-        #s
-        #s
-        pass
-
-    def win(human, ai):
+        def win(human, ai):
 
         pass
 

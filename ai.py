@@ -6,10 +6,10 @@ import player
 
 def __init__(self)
         self.ai = AI
-    def ai_list_of_gestures = player.list_of_gestures
+    def ai_list_of_gestures = pass #player.list_of_gestures
 
 
-    :: ai_list_of_gestures[ random.choice()
+    # ai_list_of_gestures[ random.choice()
 ]
 
 
