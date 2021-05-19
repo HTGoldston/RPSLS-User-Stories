@@ -16,15 +16,36 @@ class Game:
         self.player_two = AI()
         self.player_one.choosing_gesture()
         self.player_two.choosing_gesture()
-        if self.player_one.chosen_gesture =="Rock" and self.player_two.chosen_gesture == "Paper":
-            print("Player 2 wins!")
-            self.player_two.score += 1
-        if self.player_one.chosen_gesture == "Scissors" and self.player_two.chosen_gesture == "Rock":
-            print("Player 2 wins!")
-            self.player_two.score += 1
-        if self.player_one.chosen_gesture ==
-
-
+    if self.player_one.chosen_gesture == "Rock" and self.player_two.chosen_gesture == "Paper":
+        print("Player 2 wins!")
+        self.player_two.score += 1
+    if self.player_one.chosen_gesture == "Rock" and self.player_two.chosen_gesture == "Scissors":
+        print("Player 1 wins!")
+        self.player_one.score += 1
+    if self.player_one.chosen_gesture == "Rock" and self.player_two.chosen_gesture == "Rock":
+        print("Game is was a tie")
+        self.player_one.score += 1
+        self.player_two.score += 1
+    if self.player_one.chosen_gesture == "Paper" and self.player_two.chosen_gesture == "Scissors":
+        print("Player 2 wins!")
+        self.player_two.score += 1
+    if self.player_one.chosen_gesture == "Paper" and self.player_two.chosen_gesture == "Rock":
+        print("Player 1 wins!")
+        self.player_one.score += 1
+    if self.player_one.chosen_gesture == "Paper" and self.player_two.chosen_gesture == "Paper":
+        print("Game is was a tie")
+        self.player_one.score += 1
+        self.player_two.score += 1
+    if self.player_one.chosen_gesture == "Scissors" and self.player_two.chosen_gesture == "Rock":
+        print("Player 2 wins!")
+        self.player_two.score += 1
+    if self.player_one.chosen_gesture == "Scissors" and self.player_two.chosen_gesture == "Paper":
+        print("Player 1 wins!")
+        self.player_one.score += 1
+    if self.player_one.chosen_gesture == "Scissors" and self.player_two.chosen_gesture == "Scissors":
+        print("Game is was a tie")
+        self.player_one.score += 1
+        self.player_two.score += 1
 
 
 
