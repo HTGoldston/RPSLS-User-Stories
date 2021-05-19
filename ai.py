@@ -2,8 +2,6 @@ import random
 from player import Player
 
 class AI (Player):
-
-    def choosing_gesture(self):
-        AI.score= 0
+    def chosen_gesture(self):
         self.chosen_gesture = random.choice(self.list_gestures)
 
