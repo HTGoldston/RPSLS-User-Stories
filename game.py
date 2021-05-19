@@ -8,6 +8,7 @@ from human import Human
 class Game:
     def __init__(self):
         self.game = Game
+        self.name = player.user_name
         self.player_one_human = pass
         self.player_two_human_ai = pass
 
@@ -15,13 +16,13 @@ class Game:
 
         pass
 
-    while True:
-        print(f"Win: {win}nLoss: {loss}nTie: {tie}")
-        print("""Enter Your Move: 
-                    r - rock 
-                    p - paper 
-                    s - scissors""")
-        UserMove = input("n Type one of r, p or s : ")
-        if UserMove == 'q':
-            sys.exit()  # Quit the program.
+def Welcome(user_name):
+        print("Welcome " +(Name))
+        print( "Welcome to rock, paper, scissors.")
+
+
+
+
+
+
 

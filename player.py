@@ -9,7 +9,12 @@ import random
 class Player:
     def __init__(self):
         self.player = Player
-        self.name = pass
+        self.user_name=  input("What is your name: ")
+
+
+
+
+print(username)
         self.list_of_gestures = pass # list of gestures? to be a variable...
         self.score =
 
