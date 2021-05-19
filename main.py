@@ -1,5 +1,6 @@
-from player import Player
+from game import Game
 
 
-if __name__ = "__main__":
-    player = Player
+if __name__ == "__main__":
+    game = Game()
+    game.Welcome()

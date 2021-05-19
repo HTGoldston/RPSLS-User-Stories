@@ -1,21 +1,11 @@
+import random
+from player import Player
+
 class AI (Player):
 
-import random
-import player
-
-
-def __init__(self)
-        self.ai = AI
-    def ai_list_of_gestures = pass #player.list_of_gestures
-
-
-    # ai_list_of_gestures[ random.choice()
-]
-
-
-
-    AI.score= 0
-    cpu_ai = random.choice(list_of_gestures)
+    def choosing_gesture(self):
+        AI.score= 0
+        self.chosen_gesture = random.choice(self.list_gestures)
 
     # choice.random cycle or loops through a set list of 3
    #choice(dict(rock=[0], paper=[1], scissors=[2]))

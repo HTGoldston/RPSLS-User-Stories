@@ -1,26 +1,28 @@
 
-from human import Human
-from player import Player
-from player import Player
+
 from ai import AI
 from human import Human
 
 class Game:
     def __init__(self):
-        self.game = Game
-        self.name = player.user_name
-        self.player_one_human = pass
-        self.player_two_human_ai = pass
+        self.player_one = None
+        self.player_two = None
 
-        def win(human, ai):
 
-        pass
-
-def Welcome(user_name):
-        print("Welcome " +(Name))
+    def Welcome(self):
+        print("Welcome ")
         print( "Welcome to rock, paper, scissors.")
-
-
+        self.player_one = Human()
+        self.player_two = AI()
+        self.player_one.choosing_gesture()
+        self.player_two.choosing_gesture()
+        if self.player_one.chosen_gesture =="Rock" and self.player_two.chosen_gesture == "Paper":
+            print("Player 2 wins!")
+            self.player_two.score += 1
+        if self.player_one.chosen_gesture == "Scissors" and self.player_two.chosen_gesture == "Rock":
+            print("Player 2 wins!")
+            self.player_two.score += 1
+        if self.player_one.chosen_gesture ==
 
 
 
