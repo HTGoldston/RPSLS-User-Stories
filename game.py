@@ -27,7 +27,6 @@ class Game:
         self.player_one = Human()
 
         self.player_two_ai = AI()
-        breakpoint()
 
         self.player_two_options = int(input("enter a choice for Opponent (Computer 1, Human 2):"))
         if self.player_two_options == 1:
@@ -35,11 +34,10 @@ class Game:
         elif self.player_two_ai == 2:
             print("Human vs Human")
 
-        self.player_one.choosing_gesture()
+        #self.player_one.choosing_gesture()
+
 
     def game_loop(self):
-        self.msg_player_1_win = "Player 1 wins!"
-        self.msg_player_2_win = "Player 2 wins!"
         if self.player_one.chosen_gesture == "Rock" and self.player_two_ai.chosen_gesture == "Paper":
             print("Paper covers Rock")
         print(self.msg_player_2_win)
@@ -137,3 +135,5 @@ class Game:
             print("Game is was a tie")
         self.player_one.score += 0
         self.player_two_ai.score += 0
+        self.msg_player_1_win = "Player 1 wins!"
+        self.msg_player_2_win = "Player 2 wins!"
